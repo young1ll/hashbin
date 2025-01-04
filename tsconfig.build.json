@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // "removeComments": true,
+    "stripInternal": true,
+  },
+  "extends": "./tsconfig.json",
+  "include": [
+    "lib/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

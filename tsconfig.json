@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "noLib": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES2021",
+    "strict": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "sourceMap": true,
+    // "rootDir": "./lib", // 실제 소스 코드 디렉토리
+    "outDir": "./dist",
+  },
+  "include": [
+    "lib/**/*.ts",
+    "__test__/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}
